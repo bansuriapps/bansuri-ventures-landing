@@ -4,25 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BĀNSURI VENTURES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <style>
     html, body {
       height: 100%;
       margin: 0;
-      background: #07162B;
+      background: #050e1b;
     }
     body {
       display: flex;
       align-items: center;
       justify-content: center;
     }
-    img {
-      max-width: min(420px, 80vw);
+    svg {
+      width: min(560px, 92vw);
       height: auto;
+      max-height: 100vh;
       display: block;
     }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="BĀNSURI VENTURES">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#09182a" />
+      <stop offset="100%" stop-color="#050e1b" />
+    </linearGradient>
+    <linearGradient id="colGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#849db8" />
+      <stop offset="100%" stop-color="#5b7491" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+  <g transform="translate(0, 30)">
+    <polygon points="180,188 240,148 240,350 180,350" fill="url(#colGrad)" />
+    <polygon points="270,90 330,50 330,350 270,350" fill="url(#colGrad)" />
+    <polygon points="360,175 420,218 420,350 360,350" fill="url(#colGrad)" />
+    <text x="300" y="445" fill="#DCE6EF" font-family="'Cinzel', 'Trajan Pro', 'Baskerville', 'Times New Roman', serif" font-size="52" font-weight="400" letter-spacing="9" text-anchor="middle">BĀNSURI</text>
+    <text x="306" y="505" fill="#DCE6EF" font-family="'Montserrat', 'Helvetica Neue', 'Arial', sans-serif" font-size="21" font-weight="300" letter-spacing="14" text-anchor="middle">VENTURES</text>
+    <line x1="245" y1="545" x2="355" y2="545" stroke="#DCE6EF" stroke-width="1.8" opacity="0.85" />
+  </g>
+</svg>
 </body>
 </html>
